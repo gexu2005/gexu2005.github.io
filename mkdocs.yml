@@ -190,7 +190,7 @@ not_in_nav: |
 nav:
   - Home: index.md
   - Codeforces:
-    - round1034(div.3).md
+    - round1034.md
   - Atcoder:
     - round180.md
   - 数学建模:
