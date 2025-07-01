@@ -190,11 +190,11 @@ not_in_nav: |
 nav:
   - Home: index.md
   - Codeforces:
-    - round1034.md
+    - Codeforces/round1034.md
   - Atcoder:
-    - round180.md
+    - Atcoder/round180.md
   - 数学建模:
-    - Matlab.md
+    - 数学建模/Matlab.md
   - 算法:
     - algorithms/round180.md
   - Blog:
