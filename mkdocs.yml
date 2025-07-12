@@ -196,9 +196,14 @@ nav:
     - Atcoder/contest413.md
   - 数学建模:
     - 数学建模/Matlab.md
+    - 数学建模/2025_51_A/第一问.md
   - 算法:
     - algorithms/round180.md
   - 笔记:
     - blog/git.md
   - python:
     - python/国内镜像.md
+    - python/matplotlib/pyplot.md
+    - python/numpy/numpy.md
+    - python/Scipy/optimize.md
+    - python/Seaborn/seaborn.md
