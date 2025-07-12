@@ -198,5 +198,7 @@ nav:
     - 数学建模/Matlab.md
   - 算法:
     - algorithms/round180.md
-  - Blog:
+  - 笔记:
     - blog/git.md
+  - python:
+    - python/国内镜像.md
