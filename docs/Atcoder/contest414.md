@@ -151,4 +151,33 @@ signed main() {
 }
 
 ```
+### E
+
+> 将问题时间复杂度优化到O(sqrt(n)),先统计所有要删除的重复的数量，包括（如果i * i == a 且a <= n,则删除 (a, i ,i).    如果a % i == 0,则删除（a,i,a/i) 和(a,a/i,i)，避免重复，所以每一次计算新的i的时候，都需要删除那些比他本身小的可能性，因为一共两种可能，所以每一次删除的数量为（n/i - i + 1）* 2  - 1）。
+
+```c++
+#include <iostream>
+#include <algorithm>
+#include <cstring>
+using namespace std;
+#define int long long
+const int mod = 998244353;
+int n;
+void solve() {
+    cin >> n;int sum = 0,ans = 0;
+    for (int i = 2;i * i <= n;i++) {
+        if (i * i == n){sum+=1;break;}
+        else sum += ((n/i - i + 1)*2 - 1);
+        sum %= mod;
+    }
+    n %= mod;ans = (n-1)*(n - 2)/2;
+    (ans-=sum)%=mod;
+    cout << ans;
+}
+signed main() {
+    solve();return 0;
+}
+
+```
+
 
