@@ -201,7 +201,9 @@ nav:
       - 数学建模/2025_51_A/第一问.md
   - 算法:
     - algorithms/round180.md
-    - algorithms/单源最短路.md
+    - 最短路径
+      - algorithms/单源最短路.md
+      - algorithms/多源最短路.md
   - 笔记:
     - blog/git.md
   - python:
