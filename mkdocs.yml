@@ -202,8 +202,8 @@ nav:
   - 算法:
     - algorithms/round180.md
     - 最短路径:
-      - algorithms/单源最短路.md
-      - algorithms/多源最短路.md
+      - algorithms/最短路径/单源最短路.md
+      - algorithms/最短路径/多源最短路.md
   - 笔记:
     - blog/git.md
   - python:
